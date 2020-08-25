@@ -1,6 +1,6 @@
 # The Economist - QA Engineer
 
-## intro 
+## Intro 
 A suite of E2E acceptance  tests running against the Economist jobs site to test functionality
 
 ## Tool/libraries used
