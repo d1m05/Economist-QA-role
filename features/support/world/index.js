@@ -1,5 +1,5 @@
-const { setWorldConstructor, setDefaultTimeout } = require('cucumber');
-const { Builder, Capabilities } = require('selenium-webdriver');
+const {setWorldConstructor, setDefaultTimeout} = require('cucumber');
+const {Builder, Capabilities} = require('selenium-webdriver');
 require('chromedriver');
 
 const DEFAULT_TIMEOUT = 60000;
@@ -14,9 +14,9 @@ function buildDriver() {
   chromeCapabilities.set('chromeOptions', chromeOptions);
 
   return new Builder()
-    .forBrowser('chrome')
-    .withCapabilities(chromeCapabilities)
-    .build();
+      .forBrowser('chrome')
+      .withCapabilities(chromeCapabilities)
+      .build();
 }
 
 class CustomWorld {
