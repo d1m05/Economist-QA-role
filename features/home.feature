@@ -3,7 +3,7 @@ Feature: Jobs page
   Scenario: Navigation bar renders
     Given I go to the jobs page
     Then I should see the navigation bar
-    
+
   Scenario: search field render
     Given I go to the jobs page
     Then I should see the search fields
@@ -23,5 +23,4 @@ Feature: Jobs page
   Scenario: footer render
     Given I go to the jobs page
     Then I should see the footer
-       
- 
+
