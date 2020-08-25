@@ -15,7 +15,7 @@
     "eslint-config-google": "^0.14.0"
   },
   "scripts": {
-    "test": "node node_modules/cucumber/bin/cucumber-js --fail-fast -f json:report/output.json && node gen-report.js"
+    "test": "node node_modules/cucumber/bin/cucumber-js  -f json:report/output.json && node gen-report.js"
   },
   "repository": {
     "type": "git",

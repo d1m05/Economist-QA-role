@@ -1,18 +1,14 @@
 Feature:navbar-links
 
+    Scenario Outline: validate navbar links
+        Given I go to the jobs page
+        When user clicks the "<linkName>" button
+        Then the "<pageTitle>" is displayed
 
-  Scenario Outline: validate navbar links
-    Given I go to the jobs page
-    When user clicks the "<linkName>" button
-    Then the "<pageTitle>" is displayed
-
-    Examples:
-      | linkName          | pageTitle                                         |
-      | Economist         | economist.com \|Economist                         |
-      | Home              | jobs.economist.com \|Home                         |
-      | Find a job        | jobs.economist.com/jobs/ \|Find a job             |
-      | Job Alerts        | jobs.economist.com/newalert/ \|Job ALerts         |
-      | Search recruiters | jobs.economist.com/employers/ \|Search recruiters |
-      | Jobs blog         | jobs.economist.com/careers/   \|Jobs blog         |
-
-
+        Examples:
+            | linkName          | pageTitle                                                   |
+            | Home              | Jobs.Economist.com \| jobs \| Choose from 28 live vacancies |
+            | Find a job        | Browse jobs \| Jobs.Economist.com                           |
+            | Job alerts        | New Job By Email \| Jobs.Economist.com                      |
+            | Search recruiters | Recruiters on Jobs.Economist.com                            |
+            | Jobs blog         | Articles and careers information on Jobs.Economist.com      |

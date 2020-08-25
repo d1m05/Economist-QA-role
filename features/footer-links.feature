@@ -8,11 +8,11 @@ Feature:footer-links
 
     Examples:
       | linkName           | pageTitle                               |
-      | About Us           | The Economist jobs board \|About Us     |
-      | Contact Us         | Jobs.Economist.com \|Contact Us         |
-      | Terms & Conditions | Jobs.Economist.com \|Terms & Conditions |
-      | Privacy Policy     | Jobs.Economist.com \|Privacy Policy     |
-      | Advertise with us  | Jobs.Economist.com \|Recruiter Services |
+      | About Us           | The Economist jobs board \| About Us    |
+      | Contact Us         | Jobs.Economist.com \| Contact Us        |
+      | Terms & Conditions | Jobs.Economist.com \| Terms & Conditions |
+      | Privacy Policy     | Jobs.Economist.com \| Privacy Policy    |
+      | Advertise with us  | Jobs.Economist.com \| Recruiter Services |
 
 
 
