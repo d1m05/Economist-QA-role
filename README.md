@@ -1,15 +1,15 @@
 # The Economist - QA Engineer
 
-##intro 
+## intro 
 A suite of E2E acceptance  tests running against the Economist jobs site to test functionality
 
-##Tool/libraries used
+## Tool/libraries used
 - npm
 - cucumber-js <https://cucumber.io/docs/installation/javascript/>
 - selenium <https://www.selenium.dev/documentation/en/>
 - chai assertions <https://www.chaijs.com/api/assert/>
 
-##Running
+## Running
 
 To run the suite of tests first install dependencies with `npm install`
 Then run `npm test`
